@@ -1,49 +1,83 @@
-<div align="center">
+# Lee Sehan
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=378ADD&height=220&section=header&text=👋%20Hi,%20I'm%20LeeSehan&fontSize=50&fontColor=ffffff&fontAlignY=40)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1200&color=378ADD&center=false&vCenter=true&width=520&height=36&repeat=true&lines=Developer+%C2%B7+Student+%C2%B7+Couch+Potato;Minimum+effort,+maximum+efficiency;Automating+things+so+I+can+nap;Sofa+is+my+second+IDE" alt="typing"/>
 
+귀찮음 만렙 감자임 🥔<br>
+추구미: 적은 노력, 최대 효율!
 
-<h3>⚡ Tech Stack ⚡</h3>
+---
+
+#### Links
+
+<a href="https://github.com/LeeSehan"><img src="https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=181717"/></a>
+<a href="https://preciousstory.tistory.com"><img src="https://img.shields.io/badge/Blog-F6F8FA?style=flat-square&logo=tistory&logoColor=EB531F"/></a> <!-- <a href="https://www.notion.so/여기에-노션-주소"><img src="https://img.shields.io/badge/Notion-F6F8FA?style=flat-square&logo=notion&logoColor=000000"/></a> -->
+<a href="mailto:여기에@이메일"><img src="https://img.shields.io/badge/Email-F6F8FA?style=flat-square&logo=gmail&logoColor=EA4335"/></a>
+
+#### Tech Stack
+
+<table>
+  <tr>
+    <td width="110"><b>Language</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/JavaScript-F6F8FA?style=flat-square&logo=javascript&logoColor=F0C800"/>
+      <img src="https://img.shields.io/badge/Python-F6F8FA?style=flat-square&logo=python&logoColor=3776AB"/>
+      <img src="https://img.shields.io/badge/Java-F6F8FA?style=flat-square&logo=openjdk&logoColor=E76F00"/>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Frontend</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/React-F6F8FA?style=flat-square&logo=react&logoColor=61DAFB"/>
+      <img src="https://img.shields.io/badge/Next.js-F6F8FA?style=flat-square&logo=nextdotjs&logoColor=000000"/>
+      <img src="https://img.shields.io/badge/HTML-F6F8FA?style=flat-square&logo=html5&logoColor=E34F26"/>
+      <img src="https://img.shields.io/badge/CSS-F6F8FA?style=flat-square&logo=css3&logoColor=1572B6"/>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Backend</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Node.js-F6F8FA?style=flat-square&logo=nodedotjs&logoColor=5FA04E"/>
+      <img src="https://img.shields.io/badge/FastAPI-F6F8FA?style=flat-square&logo=fastapi&logoColor=009688"/>
+      <img src="https://img.shields.io/badge/Python-F6F8FA?style=flat-square&logo=python&logoColor=3776AB"/>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Database</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/MySQL-F6F8FA?style=flat-square&logo=mysql&logoColor=4479A1"/>
+      <img src="https://img.shields.io/badge/PostgreSQL-F6F8FA?style=flat-square&logo=postgresql&logoColor=4169E1"/>
+      <img src="https://img.shields.io/badge/Redis-F6F8FA?style=flat-square&logo=redis&logoColor=DC382D"/>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Tools</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Git-F6F8FA?style=flat-square&logo=git&logoColor=F05032"/>
+      <img src="https://img.shields.io/badge/Docker-F6F8FA?style=flat-square&logo=docker&logoColor=2496ED"/>
+      <img src="https://img.shields.io/badge/Notion-F6F8FA?style=flat-square&logo=notion&logoColor=000000"/>
+      <img src="https://img.shields.io/badge/Make-F6F8FA?style=flat-square&logo=make&logoColor=6D00CC"/>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Etc.</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/AI-F6F8FA?style=flat-square"/>
+      <img src="https://img.shields.io/badge/Automation-F6F8FA?style=flat-square"/>
+      <img src="https://img.shields.io/badge/Content-F6F8FA?style=flat-square"/>
+    </td>
+  </tr>
+</table>
+
+#### GitHub Stats
 
 <p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>&nbsp;
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>&nbsp;
-  <br><br>
-  <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white"/>&nbsp;
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>&nbsp;
+<img width="49%" src="https://github-readme-stats-seven-ochre-79.vercel.app/api?username=LeeSehan&show_icons=true&include_all_commits=true&theme=default&card_width=480&line_height=20&border_radius=12&border_color=E4E8EC"/>
+<img width="49%" src="https://github-readme-stats-seven-ochre-79.vercel.app/api/top-langs/?username=LeeSehan&layout=compact&langs_count=6&custom_title=Most%20Used%20Languages&theme=default&card_width=480&border_radius=12&border_color=E4E8EC"/>
 </p>
 
-<br>
+#### Recent Posts
 
-<h3>📊 GitHub Stats 📊</h3>
-
-[![LeeSehan's GitHub stats](https://github-readme-stats-seven-ochre-79.vercel.app/api?username=LeeSehan&hide_title=true&show_icons=true&include_all_commits=true&theme=vue)](https://github.com/LeeSehan)
-
-![Top Langs](https://github-readme-stats-seven-ochre-79.vercel.app/api/top-langs/?username=LeeSehan&layout=compact&card_width=445&custom_title=Most%20Used%20Languages&show_icons=true&theme=vue)
-
-![Streak](https://streak-stats.demolab.com?user=LeeSehan&theme=vue&hide_border=true)
-
-<br>
-
-<h3>📝 Latest Blog Posts</h3>
+<p align="right"><a href="https://preciousstory.tistory.com">→ 전체 보기</a></p>
 
 <!-- BLOG-POST-LIST:START -->
-📌 [알고리즘 - 개념, 조건, 분석 표기법](https://preciousstory.tistory.com/entry/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%9C%EB%85%90-%EC%A1%B0%EA%B1%B4-%EB%B6%84%EC%84%9D-%ED%91%9C%EA%B8%B0%EB%B2%95)
-
-📌 [부동소수점 - bias 계산](https://preciousstory.tistory.com/entry/%EB%B6%80%EB%8F%99%EC%86%8C%EC%88%98%EC%A0%90-bias-%EA%B3%84%EC%82%B0)
-
-📌 [파티션 설정 - Linux, Ubuntu](https://preciousstory.tistory.com/entry/%ED%8C%8C%ED%8B%B0%EC%85%98-%EC%84%A4%EC%A0%95-Ubuntu-Linux)
-
-📌 [Apple Silicon Mac에서 리눅스 설치하기 - UTM, Desktop](https://preciousstory.tistory.com/entry/Apple-Silicon-Mac%EC%97%90%EC%84%9C-%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0-UTM-Desktop)
-
-📌 [반복문(향상된 for문)](https://preciousstory.tistory.com/entry/%EB%B0%98%EB%B3%B5%EB%AC%B8-1)
-
 <!-- BLOG-POST-LIST:END -->
-
-<br>
-
-![footer](https://capsule-render.vercel.app/api?type=waving&color=378ADD&height=120&section=footer)
-
-</div>
