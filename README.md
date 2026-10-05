@@ -1,4 +1,4 @@
-<dl><dd><dl><dd>
+<dl><dd>
 
 # Lee Sehan
 
@@ -73,8 +73,8 @@
 #### GitHub Stats
 
 <p align="center">
-<img width="49%" src="https://github-readme-stats-seven-ochre-79.vercel.app/api?username=LeeSehan&show_icons=true&include_all_commits=true&theme=default&card_width=480&line_height=20&border_radius=12&border_color=E4E8EC"/>
-<img width="49%" src="https://github-readme-stats-seven-ochre-79.vercel.app/api/top-langs/?username=LeeSehan&layout=compact&langs_count=6&custom_title=Most%20Used%20Languages&theme=default&card_width=480&border_radius=12&border_color=E4E8EC"/>
+<img width="485" src="https://github-readme-stats-seven-ochre-79.vercel.app/api?username=LeeSehan&show_icons=true&include_all_commits=true&theme=default&card_width=480&line_height=20&border_radius=12&border_color=E4E8EC"/>
+<img width="485" src="https://github-readme-stats-seven-ochre-79.vercel.app/api/top-langs/?username=LeeSehan&layout=compact&langs_count=6&custom_title=Most%20Used%20Languages&theme=default&card_width=480&border_radius=12&border_color=E4E8EC"/>
 </p>
 
 #### Recent Posts
@@ -84,4 +84,4 @@
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 
-</dd></dl></dd></dl>
+</dd></dl>
