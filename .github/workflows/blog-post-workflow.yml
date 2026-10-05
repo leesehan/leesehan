@@ -10,7 +10,7 @@ env:
 jobs:
   update-readme-with-blog:
     name: Update README with latest blog posts
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
@@ -26,14 +26,31 @@ jobs:
           from email.utils import parsedate_to_datetime
 
           RSS_URL = "https://preciousstory.tistory.com/rss"
-          POST_COUNT = 3      # 보여줄 글 개수
-          THUMB_WIDTH = 72    # 썸네일 가로(px). 세로는 비율대로 자동
+          TOP_CATEGORY = "IT"   # 이 카테고리(와 하위 카테고리)의 글만 가져옴
+          POST_COUNT = 3        # 보여줄 글 개수
+          THUMB_WIDTH = 64      # 썸네일 가로(px)
 
           req = urllib.request.Request(RSS_URL, headers={
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36"
           })
           with urllib.request.urlopen(req) as res:
               tree = ET.parse(res)
+
+          def blog_category(item):
+              # 첫 번째 category가 블로그 카테고리, 나머지는 태그
+              for c in item.findall("category"):
+                  if c.text and c.text.strip():
+                      return c.text.strip()
+              return ""
+
+          def is_target(item):
+              cat = blog_category(item)
+              return cat == TOP_CATEGORY or cat.startswith(TOP_CATEGORY + "/")
+
+          def sub_label(cat):
+              # "IT/개발환경" -> "개발환경", "IT/개발환경/Linux" -> "개발환경 › Linux", "IT" -> "IT"
+              parts = [p.strip() for p in cat.split("/")]
+              return " › ".join(parts[1:]) if len(parts) > 1 else parts[0]
 
           def thumbnail(desc):
               # 본문에서 처음 나오는 이미지 (HEIC는 브라우저에서 안 보여서 제외)
@@ -42,31 +59,28 @@ jobs:
                       return html.unescape(src)
               return None
 
-          def render(item):
+          def render_row(item):
               title = html.escape(item.findtext("title", "").strip())
               link = html.escape(item.findtext("link", "").strip(), quote=True)
-
-              # 첫 번째 category가 블로그 카테고리, 나머지는 태그
-              cats = [c.text.strip() for c in item.findall("category") if c.text]
-              category = html.escape(cats[0].split("/")[-1]) if cats else ""
-
+              label = html.escape(sub_label(blog_category(item)))
               try:
                   date = parsedate_to_datetime(item.findtext("pubDate", "")).strftime("%Y.%m.%d")
               except (TypeError, ValueError):
                   date = ""
-              meta = " · ".join(x for x in (category, date) if x)
+              meta = f"<code>{label}</code>&nbsp;<sub>{date}</sub>" if date else f"<code>{label}</code>"
+              text = f'<b><a href="{link}">{title}</a></b><br>{meta}'
 
               thumb = thumbnail(item.findtext("description"))
-              img = ""
               if thumb:
-                  img = (f'<a href="{link}"><img align="left" hspace="12" vspace="4" '
-                         f'width="{THUMB_WIDTH}" src="{html.escape(thumb, quote=True)}" alt=""></a>\n')
+                  thumb = html.escape(thumb, quote=True)
+                  return (f'<tr>\n<td width="{THUMB_WIDTH + 16}" align="center" valign="middle">'
+                          f'<a href="{link}"><img src="{thumb}" width="{THUMB_WIDTH}" alt=""></a></td>\n'
+                          f'<td valign="middle">{text}</td>\n</tr>')
+              return f'<tr>\n<td colspan="2" valign="middle">{text}</td>\n</tr>'
 
-              return (f'<div>\n{img}<b><a href="{link}">{title}</a></b><br>\n'
-                      f'<sub>{meta}</sub>\n<br clear="left">\n</div>')
-
-          items = tree.findall(".//item")[:POST_COUNT]
-          posts = "\n\n".join(render(i) for i in items)
+          items = [i for i in tree.findall(".//item") if is_target(i)][:POST_COUNT]
+          rows = "\n".join(render_row(i) for i in items)
+          posts = f"<table>\n{rows}\n</table>" if rows else "<sub>표시할 글이 없어요.</sub>"
 
           with open("README.md", "r", encoding="utf-8") as f:
               content = f.read()
@@ -81,7 +95,7 @@ jobs:
           with open("README.md", "w", encoding="utf-8") as f:
               f.write(new_content)
 
-          print("README updated successfully!")
+          print(f"README updated successfully! ({len(items)} posts)")
           PYEOF
 
       - name: Commit changes
