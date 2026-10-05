@@ -81,20 +81,30 @@
 <p align="right"><a href="https://preciousstory.tistory.com">→ 전체 보기</a></p>
 
 <!-- BLOG-POST-LIST:START -->
-<table>
-<tr>
-<td width="80" align="center" valign="middle"><a href="https://preciousstory.tistory.com/entry/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%9C%EB%85%90-%EC%A1%B0%EA%B1%B4-%EB%B6%84%EC%84%9D-%ED%91%9C%EA%B8%B0%EB%B2%95"><img src="https://blog.kakaocdn.net/dn/bwElIt/dJMcadnO9Nf/JeJ4KC9AjIsky6ybZXvK1K/img.png" width="64" alt=""></a></td>
-<td valign="middle"><b><a href="https://preciousstory.tistory.com/entry/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%9C%EB%85%90-%EC%A1%B0%EA%B1%B4-%EB%B6%84%EC%84%9D-%ED%91%9C%EA%B8%B0%EB%B2%95">알고리즘 - 개념, 조건, 분석 표기법</a></b><br><code>컴퓨터공학</code>&nbsp;<sub>2026.03.24</sub></td>
-</tr>
-<tr>
-<td width="80" align="center" valign="middle"><a href="https://preciousstory.tistory.com/entry/%EB%B6%80%EB%8F%99%EC%86%8C%EC%88%98%EC%A0%90-bias-%EA%B3%84%EC%82%B0"><img src="https://blog.kakaocdn.net/dn/IbeAr/dJMcadnOPof/bHVbMV3P6bRSUcUIkDPwh0/img.png" width="64" alt=""></a></td>
-<td valign="middle"><b><a href="https://preciousstory.tistory.com/entry/%EB%B6%80%EB%8F%99%EC%86%8C%EC%88%98%EC%A0%90-bias-%EA%B3%84%EC%82%B0">부동소수점 - bias 계산</a></b><br><code>컴퓨터공학</code>&nbsp;<sub>2026.03.24</sub></td>
-</tr>
-<tr>
-<td width="80" align="center" valign="middle"><a href="https://preciousstory.tistory.com/entry/%ED%8C%8C%ED%8B%B0%EC%85%98-%EC%84%A4%EC%A0%95-Ubuntu-Linux"><img src="https://blog.kakaocdn.net/dn/beDusm/dJMcabQ354W/QWHx86NK1Qy03nISmoUNdk/img.png" width="64" alt=""></a></td>
-<td valign="middle"><b><a href="https://preciousstory.tistory.com/entry/%ED%8C%8C%ED%8B%B0%EC%85%98-%EC%84%A4%EC%A0%95-Ubuntu-Linux">파티션 설정 - Linux, Ubuntu</a></b><br><code>개발환경</code>&nbsp;<sub>2026.03.24</sub></td>
-</tr>
-</table>
+<div>
+<a href="https://preciousstory.tistory.com/entry/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%9C%EB%85%90-%EC%A1%B0%EA%B1%B4-%EB%B6%84%EC%84%9D-%ED%91%9C%EA%B8%B0%EB%B2%95"><img align="left" hspace="12" vspace="4" width="72" src="https://blog.kakaocdn.net/dn/bwElIt/dJMcadnO9Nf/JeJ4KC9AjIsky6ybZXvK1K/img.png" alt=""></a>
+<b><a href="https://preciousstory.tistory.com/entry/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%9C%EB%85%90-%EC%A1%B0%EA%B1%B4-%EB%B6%84%EC%84%9D-%ED%91%9C%EA%B8%B0%EB%B2%95">알고리즘 - 개념, 조건, 분석 표기법</a></b><br>
+<sub>컴퓨터공학 · 2026.03.24</sub>
+<br clear="left">
+</div>
+
+<hr>
+
+<div>
+<a href="https://preciousstory.tistory.com/entry/%EB%B6%80%EB%8F%99%EC%86%8C%EC%88%98%EC%A0%90-bias-%EA%B3%84%EC%82%B0"><img align="left" hspace="12" vspace="4" width="72" src="https://blog.kakaocdn.net/dn/IbeAr/dJMcadnOPof/bHVbMV3P6bRSUcUIkDPwh0/img.png" alt=""></a>
+<b><a href="https://preciousstory.tistory.com/entry/%EB%B6%80%EB%8F%99%EC%86%8C%EC%88%98%EC%A0%90-bias-%EA%B3%84%EC%82%B0">부동소수점 - bias 계산</a></b><br>
+<sub>컴퓨터공학 · 2026.03.24</sub>
+<br clear="left">
+</div>
+
+<hr>
+
+<div>
+<a href="https://preciousstory.tistory.com/entry/%ED%8C%8C%ED%8B%B0%EC%85%98-%EC%84%A4%EC%A0%95-Ubuntu-Linux"><img align="left" hspace="12" vspace="4" width="72" src="https://blog.kakaocdn.net/dn/beDusm/dJMcabQ354W/QWHx86NK1Qy03nISmoUNdk/img.png" alt=""></a>
+<b><a href="https://preciousstory.tistory.com/entry/%ED%8C%8C%ED%8B%B0%EC%85%98-%EC%84%A4%EC%A0%95-Ubuntu-Linux">파티션 설정 - Linux, Ubuntu</a></b><br>
+<sub>개발환경 · 2026.03.24</sub>
+<br clear="left">
+</div>
 <!-- BLOG-POST-LIST:END -->
 
 </dd></dl>
