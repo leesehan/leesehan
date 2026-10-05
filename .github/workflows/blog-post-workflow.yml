@@ -22,28 +22,58 @@ jobs:
           import urllib.request
           import xml.etree.ElementTree as ET
           import re
+          import html
+          from email.utils import parsedate_to_datetime
 
-          url = "https://preciousstory.tistory.com/rss"
-          req = urllib.request.Request(url, headers={
+          RSS_URL = "https://preciousstory.tistory.com/rss"
+          POST_COUNT = 3      # 보여줄 글 개수
+          THUMB_WIDTH = 72    # 썸네일 가로(px). 세로는 비율대로 자동
+
+          req = urllib.request.Request(RSS_URL, headers={
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36"
           })
-
           with urllib.request.urlopen(req) as res:
               tree = ET.parse(res)
 
-          items = tree.findall(".//item")[:5]
-          posts = ""
-          for item in items:
-              title = item.findtext("title", "").strip()
-              link = item.findtext("link", "").strip()
-              posts += f"📌 [{title}]({link})\n\n"
+          def thumbnail(desc):
+              # 본문에서 처음 나오는 이미지 (HEIC는 브라우저에서 안 보여서 제외)
+              for src in re.findall(r'<img[^>]*?\ssrc="([^"]+)"', desc or ""):
+                  if not src.lower().endswith(".heic"):
+                      return html.unescape(src)
+              return None
+
+          def render(item):
+              title = html.escape(item.findtext("title", "").strip())
+              link = html.escape(item.findtext("link", "").strip(), quote=True)
+
+              # 첫 번째 category가 블로그 카테고리, 나머지는 태그
+              cats = [c.text.strip() for c in item.findall("category") if c.text]
+              category = html.escape(cats[0].split("/")[-1]) if cats else ""
+
+              try:
+                  date = parsedate_to_datetime(item.findtext("pubDate", "")).strftime("%Y.%m.%d")
+              except (TypeError, ValueError):
+                  date = ""
+              meta = " · ".join(x for x in (category, date) if x)
+
+              thumb = thumbnail(item.findtext("description"))
+              img = ""
+              if thumb:
+                  img = (f'<a href="{link}"><img align="left" hspace="12" vspace="4" '
+                         f'width="{THUMB_WIDTH}" src="{html.escape(thumb, quote=True)}" alt=""></a>\n')
+
+              return (f'<div>\n{img}<b><a href="{link}">{title}</a></b><br>\n'
+                      f'<sub>{meta}</sub>\n<br clear="left">\n</div>')
+
+          items = tree.findall(".//item")[:POST_COUNT]
+          posts = "\n\n".join(render(i) for i in items)
 
           with open("README.md", "r", encoding="utf-8") as f:
               content = f.read()
 
           new_content = re.sub(
               r"<!-- BLOG-POST-LIST:START -->.*?<!-- BLOG-POST-LIST:END -->",
-              f"<!-- BLOG-POST-LIST:START -->\n{posts}<!-- BLOG-POST-LIST:END -->",
+              lambda m: f"<!-- BLOG-POST-LIST:START -->\n{posts}\n<!-- BLOG-POST-LIST:END -->",
               content,
               flags=re.DOTALL
           )
