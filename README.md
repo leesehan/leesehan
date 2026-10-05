@@ -1,4 +1,4 @@
-<dl><dd>
+<dl>
 
 # Lee Sehan
 
@@ -107,4 +107,4 @@
 </div>
 <!-- BLOG-POST-LIST:END -->
 
-</dd></dl>
+</dl>
