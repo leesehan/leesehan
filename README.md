@@ -81,26 +81,20 @@
 <p align="right"><a href="https://preciousstory.tistory.com">→ 전체 보기</a></p>
 
 <!-- BLOG-POST-LIST:START -->
-<div>
-<a href="https://preciousstory.tistory.com/entry/%EB%B3%B4%EA%B1%B4%EC%A6%9D-%EB%B0%9C%EA%B8%89-%EB%B0%A9%EB%B2%95-%EB%B3%B4%EA%B1%B4%EC%86%8C-%EB%B0%A9%EB%AC%B8%EB%B6%80%ED%84%B0-%EC%88%98%EB%A0%B9%EA%B9%8C%EC%A7%80"><img align="left" hspace="12" vspace="4" width="72" src="https://blog.kakaocdn.net/dn/dRhuBl/dJMcafn7f73/evk02iRml46U3yo4eaVcR0/img.png" alt=""></a>
-<b><a href="https://preciousstory.tistory.com/entry/%EB%B3%B4%EA%B1%B4%EC%A6%9D-%EB%B0%9C%EA%B8%89-%EB%B0%A9%EB%B2%95-%EB%B3%B4%EA%B1%B4%EC%86%8C-%EB%B0%A9%EB%AC%B8%EB%B6%80%ED%84%B0-%EC%88%98%EB%A0%B9%EA%B9%8C%EC%A7%80">보건증 발급 방법 | 동작구보건소 방문 후기</a></b><br>
-<sub>생활정보 · 2026.10.02</sub>
-<br clear="left">
-</div>
-
-<div>
-<a href="https://preciousstory.tistory.com/entry/%EB%A7%A5%EC%97%90%EC%84%9C-%EB%A7%88%EC%9A%B0%EC%8A%A4-%ED%81%B4%EB%A6%AD%EC%9D%80-%EB%90%98%EB%8A%94%EB%8D%B0-%ED%8F%B4%EB%8D%94%EC%99%80-%ED%8C%8C%EC%9D%BC%EC%9D%B4-%EC%95%88-%EC%97%B4%EB%A6%B4-%EB%95%8C"><img align="left" hspace="12" vspace="4" width="72" src="https://blog.kakaocdn.net/dn/NARbc/dJMcahMMANY/ryfVf2SesDeWbxWkFTGkbK/img.png" alt=""></a>
-<b><a href="https://preciousstory.tistory.com/entry/%EB%A7%A5%EC%97%90%EC%84%9C-%EB%A7%88%EC%9A%B0%EC%8A%A4-%ED%81%B4%EB%A6%AD%EC%9D%80-%EB%90%98%EB%8A%94%EB%8D%B0-%ED%8F%B4%EB%8D%94%EC%99%80-%ED%8C%8C%EC%9D%BC%EC%9D%B4-%EC%95%88-%EC%97%B4%EB%A6%B4-%EB%95%8C">맥에서 마우스 클릭은 되는데 폴더와 파일이 안 열릴 때</a></b><br>
-<sub>생활정보 · 2026.09.30</sub>
-<br clear="left">
-</div>
-
-<div>
-<a href="https://preciousstory.tistory.com/entry/%EB%84%A4%EC%9D%B4%EB%B2%84-%EC%A7%80%EB%8F%84-%EC%82%AC%EC%A7%84-%EC%97%86%EB%8A%94-%EB%A6%AC%EB%B7%B0-%EC%9D%BC%EA%B4%84-%EC%82%AD%EC%A0%9C"><img align="left" hspace="12" vspace="4" width="72" src="https://blog.kakaocdn.net/dn/liQwr/dJMcaa1dm7J/xTLOIRPRkkyGERG7hik6hK/img.png" alt=""></a>
-<b><a href="https://preciousstory.tistory.com/entry/%EB%84%A4%EC%9D%B4%EB%B2%84-%EC%A7%80%EB%8F%84-%EC%82%AC%EC%A7%84-%EC%97%86%EB%8A%94-%EB%A6%AC%EB%B7%B0-%EC%9D%BC%EA%B4%84-%EC%82%AD%EC%A0%9C">네이버 지도 리뷰 정리 - 사진 없는 리뷰 한 번에 삭제</a></b><br>
-<sub>생활정보 · 2026.09.27</sub>
-<br clear="left">
-</div>
+<table>
+<tr>
+<td width="80" align="center" valign="middle"><a href="https://preciousstory.tistory.com/entry/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%9C%EB%85%90-%EC%A1%B0%EA%B1%B4-%EB%B6%84%EC%84%9D-%ED%91%9C%EA%B8%B0%EB%B2%95"><img src="https://blog.kakaocdn.net/dn/bwElIt/dJMcadnO9Nf/JeJ4KC9AjIsky6ybZXvK1K/img.png" width="64" alt=""></a></td>
+<td valign="middle"><b><a href="https://preciousstory.tistory.com/entry/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%9C%EB%85%90-%EC%A1%B0%EA%B1%B4-%EB%B6%84%EC%84%9D-%ED%91%9C%EA%B8%B0%EB%B2%95">알고리즘 - 개념, 조건, 분석 표기법</a></b><br><code>컴퓨터공학</code>&nbsp;<sub>2026.03.24</sub></td>
+</tr>
+<tr>
+<td width="80" align="center" valign="middle"><a href="https://preciousstory.tistory.com/entry/%EB%B6%80%EB%8F%99%EC%86%8C%EC%88%98%EC%A0%90-bias-%EA%B3%84%EC%82%B0"><img src="https://blog.kakaocdn.net/dn/IbeAr/dJMcadnOPof/bHVbMV3P6bRSUcUIkDPwh0/img.png" width="64" alt=""></a></td>
+<td valign="middle"><b><a href="https://preciousstory.tistory.com/entry/%EB%B6%80%EB%8F%99%EC%86%8C%EC%88%98%EC%A0%90-bias-%EA%B3%84%EC%82%B0">부동소수점 - bias 계산</a></b><br><code>컴퓨터공학</code>&nbsp;<sub>2026.03.24</sub></td>
+</tr>
+<tr>
+<td width="80" align="center" valign="middle"><a href="https://preciousstory.tistory.com/entry/%ED%8C%8C%ED%8B%B0%EC%85%98-%EC%84%A4%EC%A0%95-Ubuntu-Linux"><img src="https://blog.kakaocdn.net/dn/beDusm/dJMcabQ354W/QWHx86NK1Qy03nISmoUNdk/img.png" width="64" alt=""></a></td>
+<td valign="middle"><b><a href="https://preciousstory.tistory.com/entry/%ED%8C%8C%ED%8B%B0%EC%85%98-%EC%84%A4%EC%A0%95-Ubuntu-Linux">파티션 설정 - Linux, Ubuntu</a></b><br><code>개발환경</code>&nbsp;<sub>2026.03.24</sub></td>
+</tr>
+</table>
 <!-- BLOG-POST-LIST:END -->
 
 </dd></dl>
