@@ -4,8 +4,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1200&color=378ADD&center=false&vCenter=true&width=520&height=36&repeat=true&lines=Developer+%C2%B7+Student+%C2%B7+Couch+Potato;Minimum+effort,+maximum+efficiency;Automating+things+so+I+can+nap;Sofa+is+my+second+IDE" alt="typing"/>
 
-귀찮음 만렙 감자임 🥔<br>
-추구미: 적은 노력, 최대 효율!
+#### 귀찮음 만렙 감자임 🥔
 
 ---
 
